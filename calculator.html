@@ -1,0 +1,58 @@
+<form action="calculator.php" method="POST">
+    <div>
+        <label for="msrp">MSRP:</label>
+        <input required type="number" id="msrp" name="msrp" min="0">
+      </div>
+      <div>
+        <label for="vehicle_year">Vehicle Year (Manufactured):</label>
+        <input required type="number" id="vehicle_year" name="vehicle_year" min="0" max="2021">
+        <!-- change to dynamic year  -->
+      </div>
+      <div>
+        <label for="vehicle_month">Vehicle Month (Manufactured):</label>
+        <input required type="number" id="vehicle_month" name="vehicle_month" min="1" max="12">
+      </div>
+      <div>
+        <label for="freight">Freight Cost:</label>
+        <input required type="number" id="freight" name="freight" min="0">
+      </div>
+      <div>
+        <label for="insurance">Insurance Cost:</label>
+        <input required type="number" id="insurance" name="insurance" min="0">
+      </div>
+      <div>
+        <label for="ambulance">Ambulance:</label>
+        <input type="checkbox" id="ambulance" name="ambulance">
+      </div>
+      <div>
+        <label for="hearse">Hearse:</label>
+        <input type="checkbox" id="hearse" name="hearse">
+      </div>
+      <div>
+        <label for="diesel">Diesel Passenger Vehicle:</label>
+        <input type="checkbox" id="diesel" name="diesel">
+      </div>
+      <div>
+        <label for="petrol">Petrol Passenger Vehicle:</label>
+        <input type="checkbox" id="petrol" name="petrol">
+      </div>
+      <div>
+        <label for="motorcycle">Motorcycle:</label>
+        <input type="checkbox" id="motorcycle" name="motorcycle">
+      </div>
+      <div>
+        <label for="tenplus">Seats 10+ Passengers:</label>
+        <input type="checkbox" id="tenplus" name="tenplus">
+      </div>
+      <div>
+        <label for="thirtyplus">Seats 30+ Passengers:</label>
+        <input type="checkbox" id="thirtyplus" name="thirtyplus">
+      </div>
+      <div>
+        <label for="displacement">Displacement:</label>
+        <input required type="number" id="displacement" name="displacement" min="1">
+      </div>
+      <div>
+        <input type="submit" name="submit" value="Submit">
+      </div>
+</form>
